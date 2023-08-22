@@ -1,1 +1,78 @@
-[]
+{
+  "version": 1,
+  "lastopen": "@workspace",
+  "expanded": {
+    "@workspace": {
+      "@workspace": true
+    }
+  },
+  "nodes": [
+    {
+      "ID": "@root",
+      "Name": "@root",
+      "Linked": {
+        "Children": [
+          "@workspace"
+        ],
+        "Components": []
+      },
+      "Attrs": {}
+    },
+    {
+      "ID": "@workspace",
+      "Name": "Workspace",
+      "Linked": {
+        "Children": [
+          "@calendar",
+          "llm93k6t6p68w50h62y",
+          "llm93m8tifgqcrp9j3q",
+          "llm93n0vmp08kcamyr"
+        ],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "@root"
+    },
+    {
+      "ID": "@calendar",
+      "Name": "Calendar",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "@workspace"
+    },
+    {
+      "ID": "llm93k6t6p68w50h62y",
+      "Name": "Home",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "@workspace"
+    },
+    {
+      "ID": "llm93m8tifgqcrp9j3q",
+      "Name": "Test",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "@workspace"
+    },
+    {
+      "ID": "llm93n0vmp08kcamyr",
+      "Name": "STuff",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "@workspace"
+    }
+  ],
+  "settings": {}
+}
