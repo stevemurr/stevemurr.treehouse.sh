@@ -26,7 +26,8 @@
           "@calendar",
           "llm93k6t6p68w50h62y",
           "llm93m8tifgqcrp9j3q",
-          "llm93n0vmp08kcamyr"
+          "llm93n0vmp08kcamyr",
+          "llm96247h9i9qu2j85"
         ],
         "Components": []
       },
@@ -66,6 +67,16 @@
     {
       "ID": "llm93n0vmp08kcamyr",
       "Name": "STuff",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "@workspace"
+    },
+    {
+      "ID": "llm96247h9i9qu2j85",
+      "Name": "Other things",
       "Linked": {
         "Children": [],
         "Components": []
