@@ -1,9 +1,17 @@
 {
   "version": 1,
-  "lastopen": "@workspace",
+  "lastopen": "llm96z79i3tzmw4dype",
   "expanded": {
     "@workspace": {
-      "@workspace": true
+      "@workspace": true,
+      "llm93n0vmp08kcamyr": false,
+      "llm93m8tifgqcrp9j3q": false,
+      "llm93k6t6p68w50h62y": false,
+      "@calendar": false
+    },
+    "llm96z79i3tzmw4dype": {
+      "llm96z79i3tzmw4dype": true,
+      "llm97d9ytegqy41zbk": true
     }
   },
   "nodes": [
@@ -23,11 +31,7 @@
       "Name": "Workspace",
       "Linked": {
         "Children": [
-          "@calendar",
-          "llm93k6t6p68w50h62y",
-          "llm93m8tifgqcrp9j3q",
-          "llm93n0vmp08kcamyr",
-          "llm96247h9i9qu2j85"
+          "@calendar"
         ],
         "Components": []
       },
@@ -38,51 +42,208 @@
       "ID": "@calendar",
       "Name": "Calendar",
       "Linked": {
-        "Children": [],
+        "Children": [
+          "llm96z7839r3sjude1d"
+        ],
         "Components": []
       },
       "Attrs": {},
       "Parent": "@workspace"
     },
     {
-      "ID": "llm93k6t6p68w50h62y",
-      "Name": "Home",
+      "ID": "llm96z7839r3sjude1d",
+      "Name": "2023",
       "Linked": {
-        "Children": [],
+        "Children": [
+          "llm96z79qomwxgjdl4"
+        ],
         "Components": []
       },
       "Attrs": {},
-      "Parent": "@workspace"
+      "Parent": "@calendar"
     },
     {
-      "ID": "llm93m8tifgqcrp9j3q",
-      "Name": "Test",
+      "ID": "llm96z79qomwxgjdl4",
+      "Name": "Week 34",
       "Linked": {
-        "Children": [],
+        "Children": [
+          "llm96z79i3tzmw4dype"
+        ],
         "Components": []
       },
       "Attrs": {},
-      "Parent": "@workspace"
+      "Parent": "llm96z7839r3sjude1d"
     },
     {
-      "ID": "llm93n0vmp08kcamyr",
-      "Name": "STuff",
+      "ID": "llm96z79i3tzmw4dype",
+      "Name": "Tue, 22 Aug ",
       "Linked": {
-        "Children": [],
-        "Components": []
+        "Children": [
+          "llm970xl4mumocnc3xh",
+          "llm976nsw2er9d95519",
+          "llm97d9ytegqy41zbk",
+          "llm979oplh11hruxce8"
+        ],
+        "Components": [],
+        "Fields": []
       },
       "Attrs": {},
-      "Parent": "@workspace"
+      "Parent": "llm96z79qomwxgjdl4"
     },
     {
-      "ID": "llm96247h9i9qu2j85",
-      "Name": "Other things",
+      "ID": "llm970xl4mumocnc3xh",
+      "Name": "Cool",
+      "Linked": {
+        "Children": [],
+        "Components": [
+          "llm9730kitc223refr"
+        ]
+      },
+      "Attrs": {},
+      "Parent": "llm96z79i3tzmw4dype"
+    },
+    {
+      "ID": "llm9730kitc223refr",
+      "Name": "treehouse.Checkbox",
+      "Value": {
+        "checked": false
+      },
       "Linked": {
         "Children": [],
         "Components": []
       },
       "Attrs": {},
-      "Parent": "@workspace"
+      "Parent": "llm970xl4mumocnc3xh",
+      "Rel": "Components"
+    },
+    {
+      "ID": "llm976nsw2er9d95519",
+      "Name": "get stuff done",
+      "Linked": {
+        "Children": [],
+        "Components": [
+          "llm97929p5eukhbhvnp"
+        ]
+      },
+      "Attrs": {},
+      "Parent": "llm96z79i3tzmw4dype"
+    },
+    {
+      "ID": "llm97929p5eukhbhvnp",
+      "Name": "treehouse.Checkbox",
+      "Value": {
+        "checked": false
+      },
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "llm976nsw2er9d95519",
+      "Rel": "Components"
+    },
+    {
+      "ID": "llm979oplh11hruxce8",
+      "Name": "",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "llm96z79i3tzmw4dype"
+    },
+    {
+      "ID": "llm97d9ytegqy41zbk",
+      "Name": "Another type",
+      "Linked": {
+        "Children": [],
+        "Components": [],
+        "Fields": [
+          "llm97qvrhwv3ctbkcsb",
+          "llm97zf7rv3jx4pr6va",
+          "llm982u69ttkswa4yj"
+        ]
+      },
+      "Attrs": {},
+      "Parent": "llm96z79i3tzmw4dype"
+    },
+    {
+      "ID": "llm97qvrhwv3ctbkcsb",
+      "Name": "Get ",
+      "Value": "this",
+      "Linked": {
+        "Children": [],
+        "Components": [
+          "llm97qvreqc8ha2m799"
+        ]
+      },
+      "Attrs": {},
+      "Parent": "llm97d9ytegqy41zbk",
+      "Rel": "Fields"
+    },
+    {
+      "ID": "llm97qvreqc8ha2m799",
+      "Name": "treehouse.TextField",
+      "Value": {},
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "llm97qvrhwv3ctbkcsb",
+      "Rel": "Components"
+    },
+    {
+      "ID": "llm97zf7rv3jx4pr6va",
+      "Name": "Done",
+      "Value": "like",
+      "Linked": {
+        "Children": [],
+        "Components": [
+          "llm97zf7nkra8np2wk8"
+        ]
+      },
+      "Attrs": {},
+      "Parent": "llm97d9ytegqy41zbk",
+      "Rel": "Fields"
+    },
+    {
+      "ID": "llm97zf7nkra8np2wk8",
+      "Name": "treehouse.TextField",
+      "Value": {},
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "llm97zf7rv3jx4pr6va",
+      "Rel": "Components"
+    },
+    {
+      "ID": "llm982u69ttkswa4yj",
+      "Name": "This",
+      "Value": "thing",
+      "Linked": {
+        "Children": [],
+        "Components": [
+          "llm982u6g2kwao6q6wf"
+        ]
+      },
+      "Attrs": {},
+      "Parent": "llm97d9ytegqy41zbk",
+      "Rel": "Fields"
+    },
+    {
+      "ID": "llm982u6g2kwao6q6wf",
+      "Name": "treehouse.TextField",
+      "Value": {},
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "llm982u69ttkswa4yj",
+      "Rel": "Components"
     }
   ],
   "settings": {}
